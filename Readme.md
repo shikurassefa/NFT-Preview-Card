@@ -24,7 +24,7 @@ you can visit the website on your mobile devce as well as your luptop
 
 ### Screenshot
 
-![](./images/Screenshot%202024-12-23%20at%2017-23-34%20nft-preview-card-component.png)
+![./images/Screenshot%202024-12-23%20at%2017-23-34%20nft-preview-card-component.png]()
 
 ### Links
 

@@ -1,111 +1,89 @@
-:root
-{
-    --Soft-blue: hsl(215, 51%, 70%);
-    --Cyan: hsl(178, 100%, 50%);
-    --Main-bg:hsl(217, 54%, 11%);
-     --Card-Bg:hsl(216, 50%, 16%);
-     --Line-color:hsl(215, 32%, 27%);
-
+:root {
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --Main-bg: hsl(217, 54%, 11%);
+  --Card-Bg: hsl(216, 50%, 16%);
+  --Line-color: hsl(215, 32%, 27%);
 }
-*,::after,::before
-{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
-body
-{
-    font-family: "Figtree", serif;
-    background-color: var(--Main-bg);
-    display: grid;
-   align-items: center;
-justify-content: center;
-height: 100vh;
+body {
+  font-family: "Figtree", serif;
+  background-color: var(--Main-bg);
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
-.card-container 
-{
-    background-color: var(--Card-Bg);
-    border-radius: 1rem;
-    display: flex;
-   flex-direction: column;
- width: 300px;
- padding: 1rem;
+.card-container {
+  background-color: var(--Card-Bg);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 1rem;
 }
 
-header .equilibrium-img
-{
-   width: 100%;
-   border-radius: .5rem;
+header .equilibrium-img {
+  width: 100%;
+  border-radius: 0.5rem;
 }
-main 
-{
-   margin-top: .5rem;
+main {
+  margin-top: 0.5rem;
 }
-main h2 
-{
-    color: #fff;
-    text-transform: capitalize;
-    margin-bottom: .4rem;
-    font-size: 1.2rem;
+main h1 {
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 0.4rem;
+  font-size: 1.2rem;
 }
-main p.equilibrium-text
-{
-color: var(--Line-color);
-margin-bottom: .4rem;
+main p.equilibrium-text {
+  color: var(--Line-color);
+  margin-bottom: 0.4rem;
 }
-main .view 
-{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px solid var(--Line-color);
-    padding: 1.5rem 0;
+main .view {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--Line-color);
+  padding: 1.5rem 0;
 }
-.view .view-icon
-{
-    width: 15px;
-    margin-right: .5rem;
-    
-   
+.view .view-icon {
+  width: 15px;
+  margin-right: 0.5rem;
 }
-figure
-{
-    display: grid;
-    grid-template-columns: auto auto;
-    align-items: center;
+figure {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
 }
 
-figcaption
-{
-    color: var(--Cyan);
-    
-  
+figcaption {
+  color: var(--Cyan);
 }
-figcaption.days
-{
-    color: var(--Line-color);
-    margin-left: .4rem;
+figcaption.days {
+  color: var(--Line-color);
+  margin-left: 0.4rem;
 }
-figure.creator
-{
-    margin-top: 1rem;
-    display: flex;
+figure.creator {
+  margin-top: 1rem;
+  display: flex;
 }
-.creator .avator 
-{
-    width: 40px;
-    margin-right: .5rem;
+.creator .avator {
+  width: 40px;
+  margin-right: 0.5rem;
 }
-.creator-name 
-{
-    color: #fff;
-    
+.creator-name {
+  color: #fff;
 }
-.creator-name a 
-{
-    text-decoration: none;
-    color: var(--Line-color);
-    margin-right: .2rem;
-    text-transform: capitalize;
-
-} 
+.creator-name a {
+  text-decoration: none;
+  color: var(--Line-color);
+  margin-right: 0.2rem;
+  text-transform: capitalize;
+}

@@ -13,7 +13,11 @@ h3,
 h4 {
   line-height: 1.1;
 }
-
+/* Remove default margin in favour of better control in authored CSS */
+body, h1, h2, h3, h4, p,
+figure, blockquote, dl, dd {
+  margin: 0;
+}
 /* Box sizing rules */
 *,
 *::before,
@@ -40,7 +44,7 @@ body {
 .img-container {
   position: relative;
   display: block;
-  margin-bottom: 0.7rem;
+  margin-bottom: 1rem;
 }
 .equilibrium-img {
   border-radius: 0.5rem;
@@ -71,27 +75,31 @@ a.img-container::after:hover {
   opacity: 1;
 }
 
+
 h2 a {
   color: #fff;
   text-transform: capitalize;
-  margin: 0.5rem 0;
+
+  display: block;
   font-size: 1.2rem;
   text-decoration: none;
+  
 }
+
 h2 a:hover
 {
   color: var(--Cyan);
 }
 p.equilibrium-text {
   color: var(--soft-Blue);
-  margin: 0.7rem 0;
+  margin: 1rem 0;
 }
 .view {
   display: flex;
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid var(--Line-color);
-  padding: 1.5rem 0;
+  padding: 1rem 0;
 }
 .view-icon {
   width: 15px;
@@ -106,6 +114,8 @@ p.equilibrium-text {
 
 .price {
   color: var(--Cyan);
+  
+ 
 }
 .days {
   color: var(--soft-Blue);

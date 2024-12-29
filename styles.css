@@ -71,11 +71,16 @@ a.img-container::after:hover {
   opacity: 1;
 }
 
-h1 {
+h2 a {
   color: #fff;
   text-transform: capitalize;
   margin: 0.5rem 0;
   font-size: 1.2rem;
+  text-decoration: none;
+}
+h2 a:hover
+{
+  color: var(--Cyan);
 }
 p.equilibrium-text {
   color: var(--soft-Blue);
@@ -124,4 +129,8 @@ p.equilibrium-text {
   text-decoration: none;
   color: #fff;
   margin-left: 0.4rem;
+}
+.creator-name a:hover 
+{
+color: var(--Cyan);
 }

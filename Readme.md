@@ -2,6 +2,7 @@
 
 This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help me to improve my coding skills by building realistic projects.
 
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -19,9 +20,12 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 ## Overview
 
 ### The challenge
+Your challenge is to build out this NFT-Preview-Card and get it looking as close to the design as possible.
 
-you can visit the website on your mobile devce as well as your luptop
+Your users should be able to:
 
+1. View the optimal layout for the interface depending on their device's screen size
+2. See hover and focus states for all interactive elements on the page
 ### Screenshot
 
 ![](./images/Screenshot%202024-12-23%20at%2017-23-34%20nft-preview-card-component.png)
@@ -67,3 +71,4 @@ once i ended my css projects i would like to focus on react.
 - Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
 ## Acknowledgments
+i would like to thank my friend grace [@grace-snow] for his suggestion.
